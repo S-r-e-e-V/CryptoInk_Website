@@ -1,23 +1,13 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import TableauReport from "tableau-react";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <TableauReport
+        url="https://public.tableau.com/views/CryptoAnalyticsDashboard/Crypto?:language=en-US&:display_count=n&:origin=viz_share_link"
+        // token="<TRUSTED TICKET HERE>"
+      />
     </div>
   );
 }
