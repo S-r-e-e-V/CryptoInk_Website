@@ -1,13 +1,14 @@
 import "./App.css";
 import TableauReport from "tableau-react";
+import LandingPage from "./components/LandingPage";
+import { AppContextProvider } from "./context/AppContext";
 
 function App() {
   return (
-    <div className="App">
-      <TableauReport
-        url="https://public.tableau.com/views/CryptoAnalyticsDashboard/Crypto?:language=en-US&:display_count=n&:origin=viz_share_link"
-        // token="<TRUSTED TICKET HERE>"
-      />
+    <div className="app">
+      <AppContextProvider>
+        <LandingPage />
+      </AppContextProvider>
     </div>
   );
 }

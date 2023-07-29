@@ -1,0 +1,8 @@
+.selected-content {
+  display: flex;
+  height: 400px;
+  overflow: hidden;
+}
+.selected-content img {
+  width: 100%;
+}
