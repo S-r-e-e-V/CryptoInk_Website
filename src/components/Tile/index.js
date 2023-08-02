@@ -1,11 +1,11 @@
 import React from "react";
 import "./Tile.css";
 
-export default function Tile({ image, description, click }) {
+export default function Tile({ image, title, click }) {
   return (
     <div className="tile" onClick={click}>
       <img src={image} />
-      <span>{description}</span>
+      <span>{title}</span>
     </div>
   );
 }

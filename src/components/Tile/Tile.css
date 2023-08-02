@@ -1,7 +1,7 @@
 .tile {
   display: flex;
   flex-direction: column;
-  width: 300px;
+  width: 400px;
   overflow: hidden;
   border-radius: 10px;
   background-color: var(--fixed-black);
@@ -21,7 +21,7 @@
   object-fit: cover;
 }
 .tile span {
-  font-size: 20px;
+  font-size: 16px;
   position: absolute;
   bottom: 0px;
   width: 100%;

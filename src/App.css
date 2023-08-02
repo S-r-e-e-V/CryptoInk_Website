@@ -4,19 +4,27 @@
   --fixed-black: #000000;
   --fixed-white: #ffffff;
   --font: sans-serif;
+  --black80: rgba(0, 0, 0, 0.8);
+  --black50: rgba(0, 0, 0, 0.5);
 }
 
-.dark-mode {
+.light-mode {
   --white: #000000;
   --black: #ffffff;
+  --black81: #ffffff 81%;
+  --black50: #ffffff 50%;
 }
-.light-mode {
+.dark-mode {
   --white: #ffffff;
   --black: #000000;
+  --black81: #000000 81%;
+  --black50: #000000 50%;
 }
 
 .app {
-  font-family: var(--font);
+  /* font-family: var(--font); */
+  font-family: "Roboto", sans-serif;
+  font-family: "Lumanosimo", "cursive";
   color: var(--white);
   background: var(--black);
 
