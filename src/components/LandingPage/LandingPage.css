@@ -78,6 +78,7 @@
   display: flex;
   align-items: center;
   padding: 0 10px;
+  font-weight: 900;
 }
 .landing-page .header .titles > * {
   margin: 0 10px;

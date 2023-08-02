@@ -1,6 +1,8 @@
 import React from "react";
+import { useNavigate } from "react-router";
 import "./SelectedContent.css";
 export default function SelectedContent({ title, description, link, image }) {
+  const navigator = useNavigate();
   return (
     <div className="selected-content">
       <div className="selected-content-details">
@@ -8,7 +10,8 @@ export default function SelectedContent({ title, description, link, image }) {
         <div className="selected-content-desciption">{description}</div>
         <span
           className="selected-content-link"
-          onClick={() => window.open(link, "_blank")}
+          onClick={() => navigator(link)}
+          // onClick={() => window.open(link, "_blank", "rel=noopener noreferrer")}
         >
           Launch
         </span>
