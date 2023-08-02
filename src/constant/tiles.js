@@ -6,7 +6,7 @@ const tiles = [
   {
     title: "Crypto Whale Tracker",
     description:
-      "A visual depiction that follows and shows big moves or transactions performed by crypt whales within the blockchain network. The dashboard gives updates on significant crypto transactions and provides information on these key players moves within the ecosystem.",
+      "A visual depiction that follows and shows big moves or transactions performed by crypto whales within the blockchain network. The dashboard gives updates on significant crypto transactions and provides information on these key players moves within the ecosystem.",
     image: CryptoWhale,
     link: "/crypto-whale",
   },
